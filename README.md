@@ -36,7 +36,9 @@ Target Label:
 1. **Eploratory Data Analysis.ipynb**      :    This notebook contains all the exploratory data analysis done on the data and plotted the results for easy understanding.
 2. **Data Preprocessing.ipynb**       : This notebook contains all the preprocessing operations performed on all the features of the data.
 3. **Naive Bayes.ipynb**    : Perform vectorization using BOW and TFIDF separately and applied Naive bayes on top of it.
-
+4. **Decision Tree and SVM.ipyn**  : Performed vectorization using TFIDF and TFIDFweightedW2V separately on the data and applied Decision tree along with SVM on top of it. 
+5. **Gradient Boosted DT**  :  Performed vectorization using TFIDF and TFIDFweightedW2V separately on the data and applied Gradient boosted decision tree on top of it
+6. **Results**   : Contains all the result plots for all models
 
 ## Results:
 1. Applying Naive Bayes:
@@ -70,3 +72,8 @@ Target Label:
    -  Using TFIDF weighted W2Vec:
       -  ![roc](/results/gbdt_tfidfweighted_roc.png)
       -  ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
+
+## Comparision:
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |
