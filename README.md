@@ -8,12 +8,12 @@ The goal of the competition is to predict whether or not a DonorsChoose.org proj
 About the DonorsChoose Data Set
 
 _The features provided in the data are:_
-**Feature**                         :	Description
-**project_id**           	        :    A unique identifier for the proposed project. Example: p036502
-**project_title**                   :	Title of the project
-**project_grade_category**          :	Grade level of students for which the project is targeted.
-**project_subject_categories** 	    :   One or more (comma-separated) subject categories for the project.
-**school_state**                    : 	State where school is located (Two-letter U.S. postal code).
+- **Feature**                         :	Description
+- **project_id**           	        :    A unique identifier for the proposed project. Example: p036502
+- **project_title**                   :	Title of the project
+- **project_grade_category**          :	Grade level of students for which the project is targeted.
+- **project_subject_categories** 	    :   One or more (comma-separated) subject categories for the project.
+- **school_state**                    : 	State where school is located (Two-letter U.S. postal code).
 **project_subject_subcategories** 	:   One or more (comma-separated) subject subcategories for the project. 
 **project_resource_summary** 	    :   An explanation of the resources needed for the project. 
 **project_essay_1**                 : 	First application essay*
