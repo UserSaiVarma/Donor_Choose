@@ -40,6 +40,17 @@ Target Label:
 5. **Gradient Boosted DT**  :  Performed vectorization using TFIDF and TFIDFweightedW2V separately on the data and applied Gradient boosted decision tree on top of it
 6. **Results**   : Contains all the result plots for all models
 
+## Comparision:
+| Vectorizer | Model | Hyper Parameter | AUC |
+| :---: | :---: | :---: | :---: |
+| BOW | Naive Bayes | 0.005 | 0.734 |
+| TFIDF | Naive Bayes | 1e-05 | 0.875 |
+| TFIDF | Decision Tree | 10-500 | 0.464 |
+| TFIDF weighted W2V | Decision Tree | 5-500 | 0.479 |
+| TFIDF | Linear SVM | 3.399 | 0.84 |
+| TFIDF | GBDT | 100-0.4 | 0.844 |
+| TFIDF weighted W2V | GBDT | 100-0.2 | 0.834 |
+
 ## Results:
 1. **Applying Naive Bayes:**
    -  Using BOW vectorization : 
@@ -72,14 +83,3 @@ Target Label:
    -  Using TFIDF weighted W2Vec:
       - _ROC Curve_ ![roc](/results/gbdt_tfidfweighted_roc.png)
       - _Confusion Matrix_ ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
-
-## Comparision:
-| Vectorizer | Model | Hyper Parameter | AUC |
-| :---: | :---: | :---: | :---: |
-| BOW | Naive Bayes | 0.005 | 0.734 |
-| TFIDF | Naive Bayes | 1e-05 | 0.875 |
-| TFIDF | Decision Tree | 10-500 | 0.464 |
-| TFIDF weighted W2V | Decision Tree | 5-500 | 0.479 |
-| TFIDF | Linear SVM | 3.399 | 0.84 |
-| TFIDF | GBDT | 100-0.4 | 0.844 |
-| TFIDF weighted W2V | GBDT | 100-0.2 | 0.834 |
