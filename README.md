@@ -41,8 +41,8 @@ Target Label:
 1. Applying Naive Bayes:
    -  Using BOW vectorization : 
       - ROC Curve:
-        -    ![roc](/results/naive_bayes_bow_roc.png)
+        <p>![roc](/results/naive_bayes_bow_roc.png)<p>
 
       - Confusion Matrix:
-        -    ![confmat](/results/naive_bayes_bow_ConfMat.png)
+        <p>![confmat](/results/naive_bayes_bow_ConfMat.png)<p>
  
