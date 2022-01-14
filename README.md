@@ -41,37 +41,37 @@ Target Label:
 6. **Results**   : Contains all the result plots for all models
 
 ## Results:
-1. Applying Naive Bayes:
+1. **Applying Naive Bayes:**
    -  Using BOW vectorization : 
-      -  ![roc](/results/naive_bayes_bow_roc.png)
-      -  ![confmat](/results/naive_bayes_bow_ConfMat.png)
+      - _ROC Curve_ ![roc](/results/naive_bayes_bow_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/naive_bayes_bow_ConfMat.png)
    
    -  Using TFIDF vectorization :
-      -  ![roc](/results/naive_bayes_tfidf_roc.png)
-      -  ![confmat](/results/naive_bayes_tfidf_ConfMat.png)
+      - _ROC Curve_ ![roc](/results/naive_bayes_tfidf_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/naive_bayes_tfidf_ConfMat.png)
 
-2. Applying Decision Tree:
+2. **Applying Decision Tree:**
    -  Using TFIDF vectorization:
-      -  ![roc](/results/dt_tfidf_roc.png)
-      -  ![confmat](/results/dt_tfidf_ConfMat.png)
+      - _ROC Curve_ ![roc](/results/dt_tfidf_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/dt_tfidf_ConfMat.png)
     
    -  Using TFIDF weighted W2Vec:
-      -  ![roc](/results/dt_tfidfweighted_roc.png)
-      -  ![confmat](/results/dt_tfidfweighted_ConfMat.png)
+      - _ROC Curve_  ![roc](/results/dt_tfidfweighted_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/dt_tfidfweighted_ConfMat.png)
 
-3. Applying SVM:
+3. **Applying SVM:**
    -  Using TFIDF vectorization:
-      -  ![roc](/results/SVM_tfidf_roc.png)
-      -  ![confmat](/results/SVM_tfidf_ConfMat.png)
+      - _ROC Curve_ ![roc](/results/SVM_tfidf_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/SVM_tfidf_ConfMat.png)
 
-4. Applying Gradient Boosted Decision Tree:
+4. **Applying Gradient Boosted Decision Tree:**
    -  Using TFIDF vectorization:
-      -  ![roc](/results/gbdt_tfidf_roc.png)
-      -  ![confmat](/results/gbdt_tfidf_ConfMat.png)
+      - _ROC Curve_  ![roc](/results/gbdt_tfidf_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/gbdt_tfidf_ConfMat.png)
     
    -  Using TFIDF weighted W2Vec:
-      -  ![roc](/results/gbdt_tfidfweighted_roc.png)
-      -  ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
+      - _ROC Curve_ ![roc](/results/gbdt_tfidfweighted_roc.png)
+      - _Confusion Matrix_ ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
 
 ## Comparision:
 | Vectorizer | Model | Hyper Parameter | AUC |
