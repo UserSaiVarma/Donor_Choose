@@ -40,6 +40,6 @@ Target Label:
 ## Results:
 1. Applying Naive Bayes:
    -  Using BOW vectorization : 
-      a.  ROC Curve:
-                ![roc](/results/naive_bayes_bow_roc.png)
+      - a.  ROC Curve:
+        - ![roc](/results/naive_bayes_bow_roc.png)
  
