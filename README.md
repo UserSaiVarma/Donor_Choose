@@ -61,4 +61,12 @@ Target Label:
    -  Using TFIDF vectorization:
       -  ![roc](/results/SVM_tfidf_roc.png)
       -  ![confmat](/results/SVM_tfidf_ConfMat.png)
+
+4. Applying Gradient Boosted Decision Tree:
+   -  Using TFIDF vectorization:
+      -  ![roc](/results/gbdt_tfidf_roc.png)
+      -  ![confmat](/results/gbdt_tfidf_ConfMat.png)
     
+   -  Using TFIDF weighted W2Vec:
+      -  ![roc](/results/gbdt_tfidfweighted_roc.png)
+      -  ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
