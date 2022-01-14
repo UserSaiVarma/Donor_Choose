@@ -74,6 +74,12 @@ Target Label:
       -  ![confmat](/results/gbdt_tfidfweighted_ConfMat.png) 
 
 ## Comparision:
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
-| Seconds | 301 | 283 |
+| Vectorizer | Model | Hyper Parameter | AUC |
+| :---: | :---: | :---: | :---: |
+| BOW | Naive Bayes | 0.005 | 0.734 |
+| TFIDF | Naive Bayes | 1e-05 | 0.875 |
+| TFIDF | Decision Tree | 10-500 | 0.464 |
+| TFIDF weighted W2V | Decision Tree | 5-500 | 0.479 |
+| TFIDF | Linear SVM | 3.399 | 0.84 |
+| TFIDF | GBDT | 100-0.4 | 0.844 |
+| TFIDF weighted W2V | GBDT | 100-0.2 | 0.834 |
