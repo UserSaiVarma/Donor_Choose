@@ -43,13 +43,13 @@ Target Label:
 ## Comparision:
 | Vectorizer | Model | Hyper Parameter | AUC |
 | :---: | :---: | :---: | :---: |
-| BOW | Naive Bayes | 0.005 | 0.734 |
-| TFIDF | Naive Bayes | 1e-05 | 0.875 |
-| TFIDF | Decision Tree | 10-500 | 0.464 |
-| TFIDF weighted W2V | Decision Tree | 5-500 | 0.479 |
-| TFIDF | Linear SVM | 3.399 | 0.84 |
-| TFIDF | GBDT | 100-0.4 | 0.844 |
-| TFIDF weighted W2V | GBDT | 100-0.2 | 0.834 |
+| BOW | Naive Bayes | α=0.005 | 0.734 |
+| TFIDF | Naive Bayes | α=1e-05 | 0.875 |
+| TFIDF | Decision Tree | depth=10 - min_sample_split=500 | 0.464 |
+| TFIDF weighted W2V | Decision Tree | depth=5 - min_sample_split=500 | 0.479 |
+| TFIDF | Linear SVM | C=3.399 | 0.84 |
+| TFIDF | GBDT | n_estimators=100 - learning_rate=0.4 | 0.844 |
+| TFIDF weighted W2V | GBDT | n_estimators=100 - learning_rate=0.2 | 0.834 |
 
 ## Results:
 1. **Applying Naive Bayes:**
