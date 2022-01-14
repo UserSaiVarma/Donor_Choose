@@ -34,4 +34,6 @@ Target Label:
 
 ## Content
 1. **Eploratory Data Analysis.ipynb**      :    This notebook contains all the exploratory data analysis done on the data and plotted the results for easy understanding.
+2. **Data Preprocessing.ipynb**       : This notebook contains all the preprocessing operations performed on all the features of the data.
+3. **Data Vectorization.ipynb**       : This notebook contains the vectorization perred on the data(Converting text and categorical features into numerical vectors)
  
