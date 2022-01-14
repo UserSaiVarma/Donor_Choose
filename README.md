@@ -39,6 +39,6 @@ Target Label:
 
 ## Results:
 1. Applying Naive Bayes:
-   _  Using BOW vectorization
+   -  Using BOW vectorization
     accuracy is dead
  
