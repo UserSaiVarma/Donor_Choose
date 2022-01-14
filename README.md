@@ -31,3 +31,7 @@ _The features provided in the data are:_
 
 Target Label:
 - **project_is_approved**             : 	A binary flag indicating whether DonorsChoose approved the project. 
+
+## Content
+1. **Eploratory Data Analysis.ipynb**      :    This notebook contains all the exploratory data analysis done on the data and plotted the results for easy understanding.
+ 
