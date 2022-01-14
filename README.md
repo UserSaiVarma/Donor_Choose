@@ -1,4 +1,5 @@
-# Donor Choose
+# Solving Donor Choose Problem
+> Data source: [Kaggle](https://www.kaggle.com/manasvee1/donorschooseorg-application-screening)
  DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Right now, a large number of volunteers is needed to manually screen each submission before it's approved to be posted on the DonorsChoose.org website.
 
 Next year, DonorsChoose.org expects to receive close to 500,000 project proposals. As a result, there are three main problems they need to solve:
