@@ -39,6 +39,7 @@ Target Label:
 
 ## Results:
 1. Applying Naive Bayes:
-   -  Using BOW vectorization
-    accuracy is dead
+   -  Using BOW vectorization : 
+      a.  ROC Curve:
+                ![roc](/results/naive_bayes_bow_roc.png)
  
