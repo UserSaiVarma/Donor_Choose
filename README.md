@@ -56,3 +56,9 @@ Target Label:
    -  Using TFIDF weighted W2Vec:
       -  ![roc](/results/dt_tfidfweighted_roc.png)
       -  ![confmat](/results/dt_tfidfweighted_ConfMat.png)
+
+3. Applying SVM:
+   -  Using TFIDF vectorization:
+      -  ![roc](/results/SVM_tfidf_roc.png)
+      -  ![confmat](/results/SVM_tfidf_ConfMat.png)
+    
