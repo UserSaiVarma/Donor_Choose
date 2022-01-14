@@ -14,20 +14,20 @@ _The features provided in the data are:_
 - **project_grade_category**          :	Grade level of students for which the project is targeted.
 - **project_subject_categories** 	    :   One or more (comma-separated) subject categories for the project.
 - **school_state**                    : 	State where school is located (Two-letter U.S. postal code).
-**project_subject_subcategories** 	:   One or more (comma-separated) subject subcategories for the project. 
-**project_resource_summary** 	    :   An explanation of the resources needed for the project. 
-**project_essay_1**                 : 	First application essay*
-**project_essay_2**                 :	Second application essay*
-**project_essay_3**                 : 	Third application essay*
-**project_essay_4**                 : 	Fourth application essay*
-**project_submitted_datetime**      : 	Datetime when project application was submitted. 
-**teacher_id**                      : 	A unique identifier for the teacher of the proposed project. 
-**teacher_prefix**                  : 	Teacher's title. 
-**teacher_number_of_previously_posted_projects**  :  Number of project applications previously submitted by the same teacher.  
+- **project_subject_subcategories** 	:   One or more (comma-separated) subject subcategories for the project. 
+- **project_resource_summary** 	    :   An explanation of the resources needed for the project. 
+- **project_essay_1**                 : 	First application essay*
+- **project_essay_2**                 :	Second application essay*
+- **project_essay_3**                 : 	Third application essay*
+- **project_essay_4**                 : 	Fourth application essay*
+- **project_submitted_datetime**      : 	Datetime when project application was submitted. 
+- **teacher_id**                      : 	A unique identifier for the teacher of the proposed project. 
+- **teacher_prefix**                  : 	Teacher's title. 
+- **teacher_number_of_previously_posted_projects**  :  Number of project applications previously submitted by the same teacher.  
 
-**description**                     : 	Desciption of the resource. 
-**quantity**                        : 	Quantity of the resource required.
-**price**                           : 	Price of the resource required.
+- **description**                     : 	Desciption of the resource. 
+- **quantity**                        : 	Quantity of the resource required.
+- **price**                           : 	Price of the resource required.
 
 Target Label:
-**project_is_approved**             : 	A binary flag indicating whether DonorsChoose approved the project. 
+- **project_is_approved**             : 	A binary flag indicating whether DonorsChoose approved the project. 
